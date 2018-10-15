@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import SearchBar from './components/search_bar';
-
-const API_KEY = 'AIzaSyA-cUxzrNZ1Oftyr3MJJXNO1GXoefUM1ms';
+const config = require('../config/api_keys');
+const API_KEY = config.Youtube_API_KEY;
 
 const App = () => {
     return (
